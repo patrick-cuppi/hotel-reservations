@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
+@import "./background.css";
+@import "./inputs.css";
 
 :root {
     --bg-orange:        #F46A05;
