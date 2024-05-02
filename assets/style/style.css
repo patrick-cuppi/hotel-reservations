@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
+
+:root {
+    --bg-orange:        #F46A05;
+    --bg-orange-hover:  #D85F08;
+    --bg-black:         #000;
+    --bg-brown-1:       #757575;
+    --bg-brown-2:       #F4F4F4;
+    --bg-white:         #FFF;
+    --bg-yellow:        #FCB705;
+    --bg-pink:          #E9008C;
+}
+
+html, body {
+    font-size: 16px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-orange {
+    color: var(--bg-white);
+    background-color: var(--bg-orange);
+    outline: none;
+    box-shadow: none;
+    font-size: 1rem;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+}
+
+.btn-orange:hover {
+    color: var(--bg-white);
+    background-color: var(--bg-orange-hover);
+}
