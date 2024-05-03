@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
 @import "./background.css";
 @import "./inputs.css";
+@import "./position.css";
 
 :root {
     --bg-orange:        #F46A05;
@@ -34,4 +35,31 @@ html, body {
 .btn-orange:hover {
     color: var(--bg-white);
     background-color: var(--bg-orange-hover);
+}
+
+.bg-color-orange {
+    color: var(--bg-white);
+    background-color: var(--bg-orange);
+}
+
+.bg-color-pink {
+    color: var(--bg-white);
+    background-color: var(--bg-pink);
+}
+
+.btn-orange-outline {
+    color: var(--bg-orange);
+    background-color: transparent;
+    outline: 2px solid var(--bg-orange);
+    box-shadow: none;
+    font-size: 1rem;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+}
+
+.btn-orange-outline:hover {
+    color: var(--bg-white);
+    background-color: var(--bg-orange);
+    outline: none;
+    border-radius: 0px;
 }
