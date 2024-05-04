@@ -61,5 +61,5 @@ html, body {
     color: var(--bg-white);
     background-color: var(--bg-orange);
     outline: none;
-    border-radius: 0px;
+    border-radius: 10px;
 }
