@@ -64,3 +64,7 @@ html, body {
     outline: none;
     border-radius: 10px;
 }
+
+.star i {
+    color: var(--bg-yellow);
+}
