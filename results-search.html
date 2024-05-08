@@ -79,8 +79,7 @@
     <main class="w-100 min-vh-100">
         <div class="container pt-4 pt-lg-5 pb-lg-5">
             <div class="row"> 
-                <!-- d-none d-md-non -->
-                <div class=" d-lg-block col-lg-3">
+                <div class="d-none d-md-none d-lg-block col-lg-3">
                     <div class="card h-100 rounded-0">
                         <div class="card-body">
                             <div class="w-100 pb-4 border-bottom">
@@ -120,6 +119,125 @@
                                             Ofertas especiais
                                         </label>
                                     </div>
+                            </div>
+
+                            <div class="w-100 pt-4 pb-4 border-bottom">
+                                <div class="card-title align-items-baseline">
+                                    <h4 class="fs-5 fw-bold me-2">
+                                        Preço
+                                    </h4>
+                                    <label for="range" class="form-label">R$:100,00 à R$:100.000,00</label>
+                                    <input type="range" class="form-range" min="0" max="5" step="0.5" id="range">
+                                </div>
+                            </div>
+
+                            <div class="w-100 pt-4 pb-4 border-bottom">
+                                <div class="card-title align-items-baseline">
+                                    <h4 class="fs-5 fw-bold me-2">
+                                        Tipos de acomodações
+                                    </h4>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" value="hotels" id="hotels">
+                                        <label for="hotels" class="form-check-label">Hotéis</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" value="inns" id="inns">
+                                        <label for="inns" class="form-check-label">Pousadas</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="w-100 pt-4 pb-4 border-bottom">
+                                <div class="card-title align-items-baseline">
+                                    <h4 class="fs-5 fw-bold me-2">
+                                        Serviços
+                                    </h4>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" value="internet" id="internet">
+                                        <label for="internet" class="form-check-label">Internet</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" value="breakfast" id="breakfast">
+                                        <label for="breakfast" class="form-check-label">Café da manhã</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" value="pool" id="pool">
+                                        <label for="pool" class="form-check-label">Piscina</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" value="football-field" id="football-field">
+                                        <label for="football-field" class="form-check-label">Campo de futebol</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" value="parking" id="parking">
+                                        <label for="parking" class="form-check-label">Estacionamento</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" value="beach" id="beach">
+                                        <label for="beach" class="form-check-label">Praias</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="w-100 pt-4 pb-4 d-flex justify-content-end">
+                                <button type="button" class="btn btn-orange pe-4 ps-4 rounded-0 w-100">
+                                    Aplicar 
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-9">
+                    <div class="alert alert-info alert-dismissible fade show rounded-0" role="alert">
+                        <span>
+                            <i class="fa fa-tag me-2" aria-hidden="true"></i>
+                            Itens abaixo em promoção
+                        </span>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+
+                    <div class="card mb-3 rounded-0">
+                        <div class="row g-0 pe-0 me-0">
+                            <div class="col-md-4">
+                                <div class="position-relative h-100">
+                                    <img src="./assets/img/hotels/hotel-2.jpeg" alt="Hotel 02" class="card-image-default w-100">
+                                    <span class="position-absolute bottom-0 right-0 bg-color-orange ps-2 pe-2 pt-1 pb-1">R$:869,00</span>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body overflow-hidden pe-0 me-0 pb-0 mb-0 ps-0 ms-0">
+                                    <h5 class="card-title mb-1 ps-3 pe-3">
+                                        Hotel Paris Germany
+                                    </h5>
+                                    <p class="text-muted mb-1 ps-3 pe-3">
+                                        Ilhéus/BA
+                                    </p>
+                                    <div class="star ps-3 pe-3">
+                                        <span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
+                                        <span class="star"><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    </div>
+                                    <p class="text-muted pt-2 ps-3 pe-3">
+                                        Se você procura um hotel totalmente luxuoso e tecnológico, esse daqui é o ideal para você e sua família.
+                                    </p>
+                                    <div class="card-footer row border-0 pe-0 me-0 ps-0 ms-0 bg-white">
+                                        <div class="col-12 col-md-12 col-lg-4 d-flex align-items-center">
+                                            <span class="material-icons me-2">local_dining</span>
+                                            Restaurante
+                                        </div>
+                                        <div class="col-12 col-md-12 col-lg-4 d-flex align-items-center">
+                                            <span class="material-icons me-2">local_cafe</span>
+                                            Café da Manhã
+                                        </div>
+                                        <div class="col-12 col-md-12 col-lg-4 d-flex align-items-center">
+                                            <span class="material-icons me-2">pool</span>
+                                            Piscina
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
