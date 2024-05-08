@@ -6,3 +6,12 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.background-banner-search {
+    width: 100%;
+    max-height: 90%;
+    background-image: url('../img/banners/search_banner.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
